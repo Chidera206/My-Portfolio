@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Anekwe Chidera, a passionate Frontend Developer.</p>
+        <p>With the matric number 2023/12690 from Computer Science Department</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I am a recent graduate of the Advanced Frontend Certification Course from New Horizons. I have a passion for creating dynamic and responsive web applications.</p>
+    </section>  
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <a class="project-content" href="proj1\index.html">
+                    <div></div>
+                    <img src="Rock Paper Scissors SS.png" alt="" class="Projectimg">
+                    Rock, Paper and Scissors AI Simulation
+                </a>
+            <a class="project-content" href="proj2\index.html">
+                <div></div>
+                <img src="pro 2 ss.png" alt="" class="Projectimg">
+                Stop Watch Simulation
+            </a>
+            <a class="project-content" href="proj3/index.html">
+                <div></div>
+                <img src="pro3 ss.png" alt="" class="Projectimg">
+                Dice Roll Simulation    
+            </a>
+        <div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    <section id="experience" class="experience-section">
+        <h2>My Experience</h2>
+        <div class="experience-container">
+            <div class="experience-item">
+                <h3>Frontend Developer Intern</h3>
+                <p>New Horizons ICT Resource Center</p>
+                <p>Duration: 6 months</p>
+            </div>
+            <!-- Add more experiences as needed -->
+        </div>
+    </section>
+    
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; <span id="year"></span> Anekwe Chidera. All rights reserved.</p>
+        <p id="date-time"></p>
+    </footer>
+        
+    
+</body>
+</html>
