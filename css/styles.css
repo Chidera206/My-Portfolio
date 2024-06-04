@@ -53,7 +53,6 @@ nav ul li a {
     align-items: center;
     color: white;
     text-align: center;
-    padding: 1em;
 }
 
 .cta-button {
@@ -90,7 +89,6 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
-    margin: 1em;
 }
 
 .project-card img {
@@ -200,16 +198,6 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-    .project-card {
-        width: 45%;
-    }
-
-    .skill {
-        width: 45%;
-    }
-}
-
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -221,30 +209,5 @@ footer {
 
     .skills-container {
         flex-direction: column;
-    }
-
-    .project-card,
-    .skill {
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-section {
-        padding: 0.5em;
-    }
-
-    .cta-button {
-        padding: 0.5em 1em;
-    }
-
-    .project-card,
-    .skill {
-        width: 95%;
-    }
-
-    #contact-form input,
-    #contact-form textarea {
-        width: 90%;
     }
 }
